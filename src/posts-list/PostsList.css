@@ -1,0 +1,8 @@
+/* PostsLists.css */
+
+.postsList > div {
+    background-color:palevioletred;
+    display: flex;
+    width: 100%;
+
+}

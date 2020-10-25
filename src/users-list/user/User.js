@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './User.css';
+// import './User.sass';
 
 export class User extends React.Component {
     // I can also define usage of local variables
@@ -10,7 +11,9 @@ export class User extends React.Component {
     render() {
         return ( <div class="userInfo"> 
                     <div>
-                    <strong>{this.props.rowCounter}.  {this.props.userName}</strong> <br></br>
+                    <   strong>{this.props.rowCounter}.  
+                                {this.props.userName}
+                         </strong> <br></br>
                         <label> {this.props.heroName} </label>
                     </div> 
                 </div>) ;

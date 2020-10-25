@@ -1,10 +1,11 @@
 /* FILE:        UsersList */
 .usersList {
     /* I don't want this area to take the full area of the html page in App.js + App.css */
-    border: yellow 2px solid;
+    
+    /* Stramg: once I removce the border I loose the top+bottom border */
+    border:pink 2px solid;
     background-color: pink;
     max-width: fit-content;
-
 }
 
 .usersList h3 {
@@ -20,4 +21,8 @@
     margin: 20px;
     padding: 20px;
     max-width: fit-content;
+}
+
+.usersList div {
+    flex-direction: column;
 }
