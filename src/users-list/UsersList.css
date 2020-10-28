@@ -26,3 +26,18 @@
 .usersList div {
     flex-direction: column;
 }
+
+.usersList fieldset {
+    display: inline-block;
+    border: blue 3px solid;
+    height: fit-content;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.usersList button {
+    width: 150px;
+}
